@@ -7,16 +7,13 @@ function About() {
 
   return (
     <section id="about">
-      <h2>ABOUT ME</h2>
+      <h2><span className="gradient-text">ABOUT ME</span></h2>
 
       <div className="about__container">
-          <p>
-            From my experiences, I have wide range of skills and most of them are skills that I learned by myself to adapt with the work requirements.
-            This shows my high adaptability to learn new skills
+          <p className="about__me">
+            I have 3 years of work experiences, in semiconductor field and software development field. I built various chat bot and web application to practice my skills.
+            I am interested in exploring more on cloud technologies and becoming a cloud engineer. I also love keeping up to date with the latest and greatest technology development.
           </p>
-
-          <button className='btn-primary'><a href="#contact">Contact</a></button>
-
 
       </div>
     </section>
