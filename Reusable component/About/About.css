@@ -74,7 +74,7 @@
 }
 
 /* responsive */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -108,4 +108,4 @@
     .about__content p {
         margin: 1.5rem 0;
     }
-  }
+  } */

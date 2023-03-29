@@ -1,62 +1,72 @@
-.container.testimonials__container {
-    width: 60%;
+#projects {
+    background: #444268;
+    padding-block: 2em;
 }
 
-.client__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-inline: 2em;
 }
 
-.testimonial {
-    background: var(--color-bg-variant);
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    user-select: none;
+.project__card {
+    background: #d9d9d9;
+    color: hsl(0, 0%, 10%);
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    justify-items: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    border-radius: 0.5rem;
+    max-width: 40ch;
+    min-height: 25em;
 }
 
-.client__review {
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto;
+.project__icon {
+    background: black;
+    aspect-ratio: 1;
+    width: 4em;
+    border-radius: 1.5rem;
+    padding: 0.5em;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-    width: max-content !important;
-    left: 50% !important;
-    transform: translateX(-50%);
+.project__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2em;
+    max-height: max-content;
 }
 
 
-.swiper-pagination-clickable swiper-pagination-bullet {
-    background: var(--color-white);
+.card__buttons {
+    display: flex;
+    gap: 3rem;
+}
+
+.project__stacks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-block: 1em;
+}
+
+.project__stack {
+    background: #e1ebfb;
+    color: #0000ff;
+    padding: 0.5em 1em;
+    border-radius: 0.5rem;
+}
+
+.card-btn-primary {
+    background: #0000ff;
+    color: #fff;
+    font-size: 1em;
+    transition: var(--transition);
 }
 
 
 /*responsive*/
 /* tablet */
-@media screen and (max-width: 1024px) {
-    .container.testimonials__container {
-        width: 60%;
-    }
-}
-
-/* phone */
-@media screen and (max-width: 600px) {
-    .container.testimonials__container {
-        width: var(--container-width-sm);
-    }
-
-    .clinet__review {
-        width: var(--container-width-sm);
-    }
-}
