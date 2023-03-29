@@ -5,63 +5,26 @@ import './Skills.css'
 export default function Skills() {
   return (
     <section id="skills">
-      <h2>My Experience</h2>
+      <h2><span className='section-title'>Skills</span></h2>
 
-      <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              .
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              .
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              .
-              <div>
-                <h4>JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        {/**Backend */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              .
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              .
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              .
-              <div>
-                <h4>JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+      <div className="card-container">
+        {skills.map((skill) => (
+          <div className="skill__card">
+            <h3 className="card__title">{skill.title}</h3>
+            <p className="card__description">{skill.description}</p>
 
-        </div>
+            <div className="skill__list">
+              <ul>
+                {skill.list.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <button className="btn skill-button">Click for list of skills</button>
+
+          </div>
+        ))}
       </div>
     </section>
   );

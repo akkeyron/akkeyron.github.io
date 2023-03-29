@@ -7,7 +7,7 @@ function About() {
 
   return (
     <section id="about">
-      <h2><span className="gradient-text">ABOUT ME</span></h2>
+      <h2><span className="section-title">ABOUT ME</span></h2>
 
       <div className="about__container">
           <p className="about__me">

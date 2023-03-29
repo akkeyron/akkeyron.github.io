@@ -17,7 +17,6 @@ const Header = () => {
                 <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/"><GrLinkedin /></a>
                 <a href="https://github.com/akkeyron"><GrGithub /></a>
             </div>
-            <a href="#about" className='btn-primary'>Contact Me</a>
         </header>
     )
 }

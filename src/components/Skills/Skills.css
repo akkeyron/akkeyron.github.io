@@ -1,70 +1,50 @@
-.experience__container {
+.skill__card {
+    background: #d9d9d9;
+    color: hsl(0, 0%, 10%);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    border-radius: 0.5rem;
+    max-width: 40ch;
+    min-height: 25em;
 }
 
-.experience__container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.skill__card {
+    position: relative;
 }
 
-.experience__container > div:hover {
+.skill__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.skill-button {
     background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: max-content;
+    position: relative;
 }
 
-.experience__container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+.skill-button:hover {
+    background: transparent;
 }
 
-.experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+/* make a horizontal line */
+.skill-button::before {
+    content: '';
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(35ch, 70vw);
+    height: 2px;
+    background: #000;
+    
 }
-
-.experience__details {
-    display: flex;
-    gap: 1rem;
-}
-
-.experience__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
-}
-
-/*responsive*/
-@media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
-    }
-
-    .experience__container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience__content {
-        padding: 1rem;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .experience__container {
-        gap: 1rem;
-    }
-
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-        
-    }
-  }

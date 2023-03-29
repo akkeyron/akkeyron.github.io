@@ -1,12 +1,11 @@
 import './Projects.css'
 import { projects } from '../../data.js'
 import React, { FC } from "react";
-import IMG from "../../assets/logo512.png";
 
 const Projects: FC = () => {
     return (
         <section id='projects'>
-            <h2>Projects</h2>
+            <h2><span className='section-title'>Projects</span></h2>
             <div className='projects__container'>
                 {projects.map((project) => (
                     <div className='project__card'>
