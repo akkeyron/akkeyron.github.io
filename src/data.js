@@ -39,6 +39,7 @@ const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     github: "https://github.com/akkeyron",
     demo: "https://github.com/akkeyron",
+    stacks: ["React", "Node", "Express"]
   },
   {
     id: 2,
@@ -48,6 +49,7 @@ const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     github: "https://github.com/akkeyron",
     demo: "https://github.com/akkeyron",
+    stacks: ["React", "Node", "Express"]
   },
   {
     id: 3,
@@ -57,16 +59,8 @@ const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     github: "https://github.com/akkeyron",
     demo: "https://github.com/akkeyron",
-  },
-  {
-    id: 4,
-    title: "React Hooks",
-    image: IMG,
-    overview:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    github: "https://github.com/akkeyron",
-    demo: "https://github.com/akkeyron",
-  },
+    stacks: ["React", "Node", "Express"]
+  }
 ];
 
 const skills = [
