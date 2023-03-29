@@ -32,7 +32,6 @@ const works = [
 
 const projects = [
   {
-<<<<<<< HEAD
     id: 1,
     title: "Discord Bot and NoSQL",
     image: IMG,
@@ -62,37 +61,6 @@ const projects = [
     demo: "https://github.com/akkeyron",
     stacks: ["React", "Node", "Express"]
   }
-=======
-      id: 1,
-      title: "Discord Bot and NoSQL",
-      image: IMG,
-      overview:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      github: "https://github.com/akkeyron",
-      demo: "https://github.com/akkeyron",
-      stacks: ["NodeJS", "MongoDB", "Docker"],
-  },
-  {
-      id: 2,
-      title: "Telegram bot",
-      image: IMG,
-      overview:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      github: "https://github.com/akkeyron",
-      demo: "https://github.com/akkeyron",
-      stacks: ["Python", "AWS Lambda", "Docker"],
-  },
-  {
-      id: 3,
-      title: "Web clicker game",
-      image: IMG,
-      overview:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      github: "https://github.com/akkeyron",
-      demo: "https://github.com/akkeyron",
-      stacks: ["Typescript", "Serverless", "Lambda"],
-  },
->>>>>>> f82b0d3e582d5ff2f1aaad06b00e64af3a20b434
 ];
 
 const skills = [
