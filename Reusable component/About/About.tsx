@@ -1,6 +1,5 @@
 import React from "react";
-import './About.css'
-import ME from '../../assets/logo512.png'
+import './About.css';
 
 function About() {
   return (
@@ -10,9 +9,6 @@ function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="Profile Image" />
-          </div>
         </div>
 
         <div className="about__content">
