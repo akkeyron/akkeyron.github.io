@@ -32,40 +32,34 @@ const works = [
 
 const projects = [
   {
-    id: 1,
-    title: "Discord Bot and NoSQL",
-    image: IMG,
-    overview:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    github: "https://github.com/akkeyron",
-    demo: "https://github.com/akkeyron",
+      id: 1,
+      title: "Discord Bot and NoSQL",
+      image: IMG,
+      overview:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      github: "https://github.com/akkeyron",
+      demo: "https://github.com/akkeyron",
+      stacks: ["NodeJS", "MongoDB", "Docker"],
   },
   {
-    id: 2,
-    title: "React Hooks",
-    image: IMG,
-    overview:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    github: "https://github.com/akkeyron",
-    demo: "https://github.com/akkeyron",
+      id: 2,
+      title: "Telegram bot",
+      image: IMG,
+      overview:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      github: "https://github.com/akkeyron",
+      demo: "https://github.com/akkeyron",
+      stacks: ["Python", "AWS Lambda", "Docker"],
   },
   {
-    id: 3,
-    title: "Machine Learning",
-    image: IMG,
-    overview:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    github: "https://github.com/akkeyron",
-    demo: "https://github.com/akkeyron",
-  },
-  {
-    id: 4,
-    title: "React Hooks",
-    image: IMG,
-    overview:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    github: "https://github.com/akkeyron",
-    demo: "https://github.com/akkeyron",
+      id: 3,
+      title: "Web clicker game",
+      image: IMG,
+      overview:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      github: "https://github.com/akkeyron",
+      demo: "https://github.com/akkeyron",
+      stacks: ["Typescript", "Serverless", "Lambda"],
   },
 ];
 

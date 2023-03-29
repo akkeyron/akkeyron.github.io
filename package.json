@@ -21,7 +21,6 @@
     "react-query": "^3.39.3",
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
-    "swiper": "^8.4.5",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
