@@ -23,8 +23,8 @@ const Projects: FC = () => {
                             ))}
                         </div>
                         <div className='card__buttons'>
-                            <a href={project.github} className='btn card-btn' target='_blank'>Github</a>
-                            <a href={project.github} className='btn card-btn-primary' target='_blank'>Demo</a>
+                            <a href={project.github} className='btn card-btn' target='_blank' rel='noreferrer'>Github</a>
+                            <a href={project.demo} className='btn card-btn-primary' target='_blank' rel='noreferrer'>Demo</a>
                         </div>
 
                     </div>

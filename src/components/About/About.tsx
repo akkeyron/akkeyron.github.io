@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import './About.css'
-import ME from '../../assets/logo512.png'
-import { works } from "../../data";
 
 function About() {
 
@@ -11,8 +9,9 @@ function About() {
 
       <div className="about__container">
           <p className="about__me">
-            I have 3 years of work experiences, in semiconductor field and software development field. I built various chat bot and web application to practice my skills.
-            I am interested in exploring more on cloud technologies and becoming a cloud engineer. I also love keeping up to date with the latest and greatest technology development.
+            Hello! I'm Loqman. Throughout my career, I have deployed new features in client applications, ensuring seamless integration and enhanced user experiences.
+            Additionally, I have created efficient automation solutions using AWS services, streamlining manual tasks and improving operational efficiency.
+            I'm always looking for new challenges and opportunities to learn and grow.
           </p>
 
       </div>

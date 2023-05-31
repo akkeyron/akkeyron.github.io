@@ -5,16 +5,17 @@ import Navbar from '../../components/Navbar2/Navbar';
 import Header from '../../components/Header/Header';
 import Projects from '../../components/Projects/Projects';
 import Skills from '../../components/Skills/Skills';
-import {FC} from 'react';
+import { FC } from 'react';
 import Footer from '../../components/Footer/Footer';
 
 
-const Home:FC = () => {
+const Home: FC = () => {
   return (
     <>
+      
       <Header />
-      <About />
       <Navbar />
+      <About />
       <Skills />
       <Projects />
       <Contact />

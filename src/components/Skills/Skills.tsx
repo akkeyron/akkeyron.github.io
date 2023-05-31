@@ -1,8 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { skills } from "../../data";
 import './Skills.css'
 
 export default function Skills() {
+  const [showList, setShowList] = useState<boolean>(false);
+
+
+  // skill_button.addEventListener("click", event => {
+  //   // if (skill_button) {
+  //   const skill_list = document.getElementsByClassName("skill__list")[0];
+  //   skill_list.classList.add("show");
+
+
+
+  // })
+
+  useEffect(() => {
+    const skill_button = document.querySelectorAll(".skill-button");
+
+    skill_button.forEach(element => {
+      element.addEventListener('click', () => {
+        const target = element.previousElementSibling;
+        if (target?.classList.contains("show")) {
+          target.classList.remove("show");
+          target.previousElementSibling?.classList.remove("hide");
+        }
+        else {
+          target?.classList.add("show");
+          target?.previousElementSibling?.classList.add("hide");
+        }
+      })
+    });
+  }, [])
+
+
   return (
     <section id="skills">
       <h2><span className='section-title'>Skills</span></h2>
@@ -21,7 +52,7 @@ export default function Skills() {
               </ul>
             </div>
 
-            <button className="btn skill-button">Click for list of skills</button>
+            <button className="skill-button" type="button">Click for list of skills</button>
 
           </div>
         ))}

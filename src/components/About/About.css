@@ -1,17 +1,18 @@
 #about {
-    background: #443C68;
+    background: linear-gradient(0, var(--color-bg), var(--color-bg-variant));
 }
 
 .about__me {
-    margin-inline: 2rem;
+    margin: 0 auto;
     padding: 2em;
     border-radius: 1rem;
-    background: #D9D9D9;
-    color: black;
+    background: var(--color-light);
+    color: var(--color-dark);
     position: relative;
     outline: none;
     font-size: 1.2em;
     font-weight: 400;
+    max-width: 80vw;
 }
 
 .about__me::before {

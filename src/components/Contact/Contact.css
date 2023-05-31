@@ -1,8 +1,12 @@
-.container.contact__container {
-    display: grid;
+.contact__container {
+    /* display: grid;
     grid-template-columns: 30% 60%;
-    padding-bottom: 4rem;
-    gap: 12%;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    justify-content: center;
+    gap: 2em;
+    margin-inline: 2em; */
+    margin: 0 auto;
+    width: 25rem;
 }
 
 .contact__options {
@@ -33,7 +37,9 @@
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1em;
+    font-weight: 500;
+    color: aqua;
 }
 
 .contact__option h5 {
@@ -44,7 +50,9 @@
     width: 100%;
     margin: 0 auto;
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: #fff;
+    border: none;
+    padding: 1.2rem;
 }
 
 .btn.send-message:hover {
@@ -65,22 +73,10 @@ textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
+    background: var(--color-light);
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: var(--color-dark);
 }
 
 /*responsive*/
-@media screen and (max-width: 1024px) {
-    .container.contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .container.contact__container {
-        width: var(--container-width-sm);
-    }
-}
