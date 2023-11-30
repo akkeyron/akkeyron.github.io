@@ -44,8 +44,8 @@ const projects = [
     image: PROJECT3,
     overview:
       "Developed a telegram bot help people understand Arabic Dua in Malay. It has broadcasting function to send message to all users that use the bot. The bot runs on Google Cloud.",
-    github: "https://github.com/akkeyron/telegram-bot-todolist/tree/mongodb",
-    demo: "https://t.me/akkeyron_bot",
+    github: "https://github.com/akkeyron/Doa-Telegram-Bot",
+    demo: "https://t.me/DoaAmalanBot",
     stacks: ["Google Cloud", "NodeJS", "FireStore"]
   }
 ];
