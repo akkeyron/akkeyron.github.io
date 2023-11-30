@@ -27,12 +27,12 @@ const Contact:FC = () => {
         <div className="contact__options">
           <article className="contact__option">
             <div className="contact__option-icon"><GrMail /></div>
-            <h5>loqmanhakim74@gmail.com</h5>
+            <p>loqmanhakim74@gmail.com</p>
             <a href="mailto:loqmanhakim74@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <div className="contact__option-icon"><GrLinkedin /></div>
-            <h5>Loqman Al Hakim Aripin</h5>
+            <p>Loqman Al Hakim Aripin</p>
             <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/" target="_blank" rel="noreferrer">Go to Profile</a>
           </article>
 

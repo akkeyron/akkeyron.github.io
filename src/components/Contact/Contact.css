@@ -1,49 +1,28 @@
-.contact__container {
-    /* display: grid;
-    grid-template-columns: 30% 60%;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    justify-content: center;
-    gap: 2em;
-    margin-inline: 2em; */
-    margin: 0 auto;
-    width: 25rem;
-}
-
 .contact__options {
     display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: var(--primary-button);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
+    color: var(--background);
     transform: var(--transition);
-}
-
-.contact__option:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-}
-
-.contact__option-icon {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    width: 36ch;
 }
 
 .contact__option a {
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
-    color: aqua;
+    color: var(--color-clickable);
 }
 
-.contact__option h5 {
-    color: var(--color-light);
+
+.contact__option-icon {
+    font-size: var(--fs-400);
 }
 
 .btn.send-message {

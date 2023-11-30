@@ -1,7 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import './Navbar.css';
-import { links } from '../../data';
 import { GoThreeBars } from 'react-icons/go';
 import { MdOutlineClose } from 'react-icons/md'
 

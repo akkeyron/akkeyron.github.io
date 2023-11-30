@@ -11,7 +11,7 @@
 }
 
 .project__card {
-    background: #d9d9d9;
+    background: var(--color-light);
     color: hsl(0, 0%, 10%);
     display: grid;
     grid-template-rows: auto auto 1fr auto auto;
@@ -36,13 +36,6 @@
     padding: 0.5em;
 }
 
-.project__title {
-    margin: 0;
-    font-weight: 600;
-    font-size: 1.2em;
-    max-height: max-content;
-}
-
 
 .card__buttons {
     display: flex;
@@ -58,19 +51,13 @@
 }
 
 .project__stack {
-    background: #e1ebfb;
-    color: #0000ff;
+    background: var(--second-accent);
+    color: var(--background);
     padding: 0.5em 1em;
     border-radius: 0.5rem;
+    font-size: var(--fs-300);
 }
 
-.card-btn-primary {
-    background: #0000ff;
-    color: #fff;
-    font-size: 1em;
-    transition: var(--transition);
+.project__description {
+    color: hsl(0 0% 0% / 0.7);
 }
-
-
-/*responsive*/
-/* tablet */

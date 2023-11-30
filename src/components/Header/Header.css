@@ -23,33 +23,24 @@
     background-origin: content-box;
     background-repeat: no-repeat;
     border-radius: 50%; 
-    box-shadow: 0 0 10px 2px #f5f5f5;
-}
-
-.main__header-desc h1 {
-    font-weight: 900;
-    font-size: min(2em, 5vw);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .main__header-desc p {
-    font-weight: 300;
-    font-size: 1em;
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 
 .main__header-socials {
     display: flex;
+    margin-top: 1em;
     border-radius: 2rem;
     background-color: hsl(0, 0%, 0%, 0.6);
-    gap: 1em;
-    inset: 0;
-    margin-bottom: 1rem;
 }
 
 .main__header-socials a {
-    font-size: 2.2em;
+    font-size: var(--fs-500);
     padding-top: 0.3em;
     padding-inline: 0.5em;
-    color: #f5f5f5;
+    color: var(--primary-button);
 }

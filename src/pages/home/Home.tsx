@@ -12,7 +12,6 @@ import Footer from '../../components/Footer/Footer';
 const Home: FC = () => {
   return (
     <>
-      
       <Header />
       <Navbar />
       <About />

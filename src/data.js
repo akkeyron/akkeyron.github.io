@@ -40,13 +40,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "To do list Telegram Bot",
+    title: "Telegram Bot Doa",
     image: PROJECT3,
     overview:
-      "Developed a telegram bot that can be used to manage to do list. It has CRUD functionality and also supports multiple users and groups. The application runs in docker container on AWS EC2.",
+      "Developed a telegram bot help people understand Arabic Dua in Malay. It has broadcasting function to send message to all users that use the bot. The bot runs on Google Cloud.",
     github: "https://github.com/akkeyron/telegram-bot-todolist/tree/mongodb",
     demo: "https://t.me/akkeyron_bot",
-    stacks: ["AWS EC2", "Docker", "MongoDB"]
+    stacks: ["Google Cloud", "NodeJS", "FireStore"]
   }
 ];
 
@@ -55,7 +55,7 @@ const skills = [
     title: "Web Development",
     list: ["React", "Python Flask", "CSS", "NodeJS", "TypeScript"],
     description:
-      "Experienced in full stack development in current work. Developed features aligned with specific business requirements, ensuring the application meets the unique needs of the client.",
+      "Experienced in full stack development in current task. Developed features aligned with specific business requirements, ensuring the application meets the unique needs of the client.",
     image: "./project-1.gif",
   },
   {
